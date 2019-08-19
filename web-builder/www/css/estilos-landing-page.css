@@ -1,0 +1,44 @@
+.nav-bar-styles{
+    background-color: rgb(81, 124, 167) !important;
+}
+
+.a-nav-bar{
+    margin-left: 250px;
+}
+
+.brand-wb{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white !important;
+    font-family: inherit;
+}
+
+.nav-bar-options{
+    color: white !important;
+    font-family: inherit !important;
+    margin-right: 5px;
+
+}
+
+.icons{
+    margin-left: 5px !important;
+}
+
+.body-about{
+    /* background-color: #000000a6 !important; */
+    background-image: url("../img/background-about.jpg") !important; 
+    /* opacity: 0.3; */
+    
+}
+
+.body-resources{
+    background-color: rgb(81, 124, 167);
+}
+.p-download{
+    margin-left: 229px;
+    margin-right: 200px;
+}
+
+/* .section-background{
+    background-color: #000000a6 !important;
+} */

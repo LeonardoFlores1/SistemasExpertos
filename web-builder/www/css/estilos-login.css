@@ -1,0 +1,44 @@
+body{
+    background-color: #2C3E50;
+}
+
+.div-login{
+    width: 35%;
+    /* height: 350px; */
+    background-color:rgb(26,188,156);
+    opacity: 0.8;
+    border-radius: 3px;
+    margin-top: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.button-login{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#olvidaste-contrasenia{
+    color: white;
+    text-align: right;
+}
+
+#back{
+    color: white;
+    /* text-align: center; */
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+
+.link-show{
+    color: black !important;
+}
+
+
+@media only screen and (max-width: 750px){
+    .div-login{
+        width: 75%
+    }
+}

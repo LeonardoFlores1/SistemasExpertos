@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/dashboard-styles.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/brands.min.css">
+  <link rel="stylesheet" href="css/regular.min.css">
+  <link rel="stylesheet" href="css/svg-with-js.min.css">
+  <link rel="stylesheet" href="css/v4-shims.min.css">
+  <link rel="shortcut icon" href="img/logo.png">
+
+  <title>Dashboard</title>
+  <link href="css/freelancer.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+ <nav class="navbar navbar-expand-sm nav-style fixed-top">
+     <button class="btn btn-light">Mi sitio web</button>
+     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+         aria-expanded="false" aria-label="Toggle navigation"></button>
+     <div class="collapse navbar-collapse" id="collapsibleNavId">
+         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+             <li class="nav-item active">
+                 
+             </li>
+             <li class="nav-item">
+                 
+             </li>
+             <li class="nav-item dropdown">
+             </li>
+         </ul>
+             <button class="btn btn-light btn-group-lg" type="button" data-toggle="modal" data-target="#modal-escribe"><i class="fas fa-plus"></i><i class="fas fa-marker"></i> <span class="entry">Escribe</span> </button>
+             <button class="btn btn-link" type="button"><i class="fas fa-user-circle"></i></button>
+             <button class="btn btn-link" type="button"><i class="fas fa-bell"></i></button>    
+     </div>
+ </nav>
+
+ <!-- sidebar content -->
+  <section>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 side side-bar" style="background-color: #E1E2E2">
+            <div class="project-section">
+                <i class="fas fa-pager "></i> <h4>Sitio web</h4>
+            </div>
+            <div class="list-group options" data-tip-target="sidebar" id="dashboard-options">
+            </div>
+          </div>          
+          <div class="col-md-10" style="margin-top: 56px;">
+            <div class="row">
+              <div class="col-md-12">
+                contenido 1
+              
+                <div class="row">
+                <div class="col-md-3 contenidos"><span>Publica</span>
+                  <br>
+                  <input type="text" class="form-group " placeholder="Titulo" style="width: 100%">
+                  <input type="text" class="form-group posts" placeholder="Escribe">
+                </div>
+                <div class="col-md-3 contenidos">contenidos</div>
+                <div class="col-md-3 contenidos">contenidos</div>
+                <div class="col-md-3 contenidos">contenidos</div>
+              
+            </div>                        
+          </div>
+        </div>
+    </div>
+  </section>
+ <!--  -->
+
+ <!-- modal escribe -->
+  <div class="modal fade" id="modal-escribe" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Escribe tu nueva publicacion</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Titulo</label>
+                  <input type="text" class="form-control" id="" placeholder="Titulo">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Contenido</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Publicar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!--  -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/controlador.js"></script>
+
+  <script src="js/all.min.js"></script>
+  <script src="js/brands.min.js"></script>
+  <!-- <script src="js/conflict-detection.min.js"></script> -->
+  <script src="js/fontawesome.min.js"></script>
+  <script src="js/regular.min.js"></script>
+  <script src="js/solid.min.js"></script>
+  <script src="js/v4-shims.min.js"></script>
+</body>
+
+</html>
+

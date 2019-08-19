@@ -1,0 +1,34 @@
+body{
+    background-color: #2C3E50;
+}
+
+.div-form-project{
+    width: 50%;
+    /* height: 450px; */
+    background-color: rgb(26,188,156);
+    opacity: 0.8;
+    border-radius: 3px;
+    margin-top: 13px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+.inputs-form-proyect{
+    width: 75%;
+    /* position: relative;
+    left: 20px; */
+}
+
+/* .label-form-proyect{
+    width: 30%;
+} */
+
+p{
+    font-size: 0.9rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.link-show{
+    color: black !important;
+}

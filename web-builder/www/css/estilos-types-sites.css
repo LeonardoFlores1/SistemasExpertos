@@ -1,0 +1,23 @@
+body{
+    background-color: #2C3E50;
+}
+
+.text-top{
+    margin-top: 80px;
+}
+
+.p-list{
+    font-size: 0.8rem;
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+}
+
+.a-list{
+    font-weight: bold;
+}
+
+#a-back{
+    color: white;
+    text-decoration: none;
+}
